@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: fixed;
+    background-color: red;
+    /* display: block; */
+    height: 80px;
+    width: 90%;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header h1{
+    /* margin-top: 40px; */
+    border: 5px solid white;
+    border-radius: 25px;
+    display: inline-block;
+    width: 200px;
+    height: 50px;  
+    font-size: 30px;  
+}
+
+#photo1{
+    width: 100%;
+}
+
+.main-nav{
+    /* display: flex; */
+    background-color: lightgrey; 
+    height: 50px;   
+
+    
+}
+
+.main-nav ul{
+    list-style-type: none;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    /* align-items: flex-start; */
+    padding-top: 15px;
+
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: black;   
+}
+
+.main-nav a:hover{
+    color: red;
+    transition: 300ms;
+}
+
+article{
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+}
+
+article h2{
+    font-size: 30px;
+    color: red;
+}
+
+article p{
+    font-size: 15px;
+}
+
+article p::first-line{
+    font-weight: 800;
+}
+
+.images{
+    display: flex;
+    list-style-type: none;
+}
+
+.images li{
+    margin: 40px;
+}
+
+.images li:hover{
+    opacity: 0.7;
+}
+
+section.join{
+    background-color: rgb(235, 232, 232);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.join h2{
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+#email{
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+}
+
+#submit{
+    width: 60px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 3px solid green;
+    text-align: center;
+}
+
+.copyright{
+    display: block;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
