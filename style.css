@@ -97,7 +97,7 @@ article p::first-line{
     height: 250px;
 }
 
-#photo1:hover, #photo2:hover{
+#photo2:hover, #photo3:hover{
     transform: translateY(-5px);
 }
 
