@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 90%;
+    width: 100%;
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -15,7 +15,7 @@ header{
     background-color: red;
     /* display: block; */
     height: 80px;
-    width: 90%;
+    width: 100%;
     color: white;
     text-align: center;
     padding-top: 20px;
@@ -68,7 +68,7 @@ header h1{
 article{
     width: 100%;
     margin: auto;
-    padding: 50px;
+    padding: 30px;
 }
 
 article h2{
@@ -84,17 +84,21 @@ article p::first-line{
     font-weight: 800;
 }
 
-.images{
+.artimg{
     display: flex;
-    list-style-type: none;
+    justify-content: space-evenly;
 }
 
-.images li{
-    margin: 40px;
+#photo2{
+    height: 250px;
 }
 
-.images li:hover{
-    opacity: 0.7;
+#photo3{
+    height: 250px;
+}
+
+#photo1:hover, #photo2:hover{
+    transform: translateY(-5px);
 }
 
 section.join{
